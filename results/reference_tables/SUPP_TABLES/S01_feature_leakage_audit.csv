@@ -1,0 +1,41 @@
+feature,class,reason,in_original,in_strict,in_strict_ext
+total_debt,direct,total_debt = total_assets * debt_ratio (numerator of the target).,False,False,False
+total_equity,direct,total_equity = total_assets - total_debt = total_assets * (1 - debt_ratio).,False,False,False
+debt_to_equity,direct,total_debt / total_equity = DR / (1 - DR); one-to-one with the target before winsorisation.,False,False,False
+equity_ratio,direct,total_equity / total_assets = 1 - debt_ratio exactly.,False,False,False
+market_leverage,direct,"total_debt / (total_debt + market_cap), market_cap = equity * multiple; = DR / (DR + (1-DR)*M).",False,False,False
+wacc,direct,"Book weights E/(D+E) = 1 - DR, and equity beta = 1 + 0.9*DR; given interest_rate and credit_spread WACC is a deterministic function of DR.",False,False,False
+roe,direct,net_income / total_equity = roa / (1 - DR); together with roa it recovers DR = 1 - roa/roe.,True,False,False
+tobin_q,direct,"(market_cap + total_debt) / total_assets = DR + (1 - DR) * M, with M a lognormal multiple; contains total_debt explicitly.",True,False,False
+altman_zscore,direct,Term 1.2*(TA - total_debt - cash)/TA contains 1 - DR; term 0.6*market_cap/total_debt = 0.6*(1-DR)*M/DR.,True,False,False
+interest_expense,indirect,"interest_expense = total_debt * (rf + 2*risk*spread), floored at 0.001*debt.",False,False,False
+interest_coverage,indirect,ebit / interest_expense = 1.7*roa*g / (DR * r_eff); inversely proportional to DR given profitability and rates.,True,False,False
+market_cap,indirect,"market_cap = total_equity * clip(exp(N(0.8,0.7)), 0.5, 9), so it scales with 1 - DR.",False,False,False
+capital_structure_efficiency,indirect,"Composite of wacc, roe and tobin_q (all debt-dependent) plus default_risk_score and cash_ratio.",True,False,False
+roa,clean,"net_income = size * profitability draw * growth factor; interest is never deducted, so NI and ROA do not depend on debt.",True,True,True
+cash_ratio,clean,"cash = size * clip(0.08 + 0.02*risk) * U(0.8,1.2); depends on latent risk, not debt.",True,True,True
+default_risk_score,clean,"Logistic in z-scored roa, gdp_growth and credit_spread; no debt term (z uses full-sample roa mean/s.d.).",False,False,True
+sector_code,clean,"Alphabetical code of the sector label; sector sets the baseline leverage, so it is informative but not leaky.",True,True,True
+size_code,clean,Sample tertile of total_assets; size is drawn independently of leverage.,True,True,True
+gdp_growth,clean,Year-level macro series (common to all firms in a year).,True,True,True
+inflation,clean,Year-level macro series.,True,True,True
+interest_rate,clean,Year-level macro series; enters DR* as an exogenous driver.,True,True,True
+credit_spread,clean,Year-level macro series; enters DR* as an exogenous driver.,True,True,True
+total_assets,clean,"Firm size draw exp(N(7.5,1.9)); constant over time within firm.",False,False,False
+revenue,clean,"size * exp(growth*t) * U(0.35,1.6); no debt term.",False,False,False
+net_income,clean,See roa: no interest deduction.,False,False,False
+ebit,clean,ebit = 1.7 * net_income (floored at 0); no debt term.,False,False,False
+cash_holdings,clean,See cash_ratio.,False,False,False
+stock_return,clean,"N(0.08, 0.25) + 0.5*gdp_growth/100; no debt term.",False,False,False
+log_assets,clean,log(total_assets); additional derived feature.,False,False,True
+ebit_to_assets,clean,"ebit / total_assets (= 1.7*roa when NI > 0, before roa winsorisation); additional derived feature.",False,False,True
+asset_turnover,clean,revenue / total_assets; additional derived feature.,False,False,True
+sales_growth,clean,revenue_t / revenue_{t-1} - 1 within firm (NaN in first year); additional derived feature.,False,False,False
+sector_ConsDisc,clean,Sector dummy.,True,True,True
+sector_Energy,clean,Sector dummy.,True,True,True
+sector_Financials,clean,Sector dummy.,True,True,True
+sector_Healthcare,clean,Sector dummy.,True,True,True
+sector_Industrials,clean,Sector dummy.,True,True,True
+sector_Materials,clean,Sector dummy.,True,True,True
+sector_Tech,clean,Sector dummy.,True,True,True
+sector_Utilities,clean,Sector dummy.,True,True,True

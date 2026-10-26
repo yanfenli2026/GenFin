@@ -1,0 +1,17 @@
+test,statistic,df,p,note
+"Durbin-Watson (M1 pooled OLS residuals, firm-year order)",0.2872725626049979,,,2 = no first-order autocorrelation; computed over the stacked panel as in the original
+AR(1) correlation of M1 residuals within firm,0.9244959619619828,,,"corr(e_it, e_i,t-1), 296 x 14 pairs"
+"Wooldridge AR(1) (FD residual regression, H0: rho_fd = -0.5) - original regressors (roa, tobin_q, interest_coverage, macro)",561.6984970583254,"F(1,295)",2.911892674312049e-70,rho_fd = -0.1475 (cluster SE 0.0149); n = 3848
+"Wooldridge AR(1) (FD residual regression, H0: rho_fd = -0.5) - strict regressors (roa, cash_ratio, macro)",608.7148670716847,"F(1,295)",1.0861150649446568e-73,rho_fd = -0.1404 (cluster SE 0.0146); n = 3848
+"Hausman FE vs RE - original regressors, contrast over all time-varying regressors",-49.41672437544149,chi2(0),,non-robust covariances; V_FE - V_RE positive definite: False; RE theta = 0.9218
+"Hausman FE vs RE (sigmamore) - original regressors, contrast over all time-varying regressors",122.29121839772496,chi2(3),2.4771127594526774e-26,non-robust covariances; V_FE - V_RE positive definite: False; RE theta = 0.9218
+"Hausman FE vs RE - original regressors, contrast over firm-level regressors only",-49.4167243755611,chi2(0),,non-robust covariances; V_FE - V_RE positive definite: False; RE theta = 0.9218
+"Hausman FE vs RE (sigmamore) - original regressors, contrast over firm-level regressors only",122.29128571566346,chi2(3),2.4770300546760863e-26,non-robust covariances; V_FE - V_RE positive definite: True; RE theta = 0.9218
+Mundlak / correlated-RE Wald test (cluster-robust) - original regressors,46.21549634753507,"F(3,295)",1.6391914184029862e-24,"H0: firm means of roa, tobin_q, interest_coverage jointly zero (RE consistent)"
+"Hausman FE vs RE - strict regressors, contrast over all time-varying regressors",0.2100803314815421,chi2(6),0.9998214369721856,non-robust covariances; V_FE - V_RE positive definite: True; RE theta = 0.9353
+"Hausman FE vs RE (sigmamore) - strict regressors, contrast over all time-varying regressors",0.3127403096530058,chi2(2),0.8552425596121609,non-robust covariances; V_FE - V_RE positive definite: False; RE theta = 0.9353
+"Hausman FE vs RE - strict regressors, contrast over firm-level regressors only",0.210080331481542,chi2(2),0.9002883611111128,non-robust covariances; V_FE - V_RE positive definite: True; RE theta = 0.9353
+"Hausman FE vs RE (sigmamore) - strict regressors, contrast over firm-level regressors only",0.3127400374395728,chi2(2),0.8552426760164253,non-robust covariances; V_FE - V_RE positive definite: True; RE theta = 0.9353
+Mundlak / correlated-RE Wald test (cluster-robust) - strict regressors,0.1790214740819566,"F(2,295)",0.8361787087579479,"H0: firm means of roa, cash_ratio jointly zero (RE consistent)"
+F test poolability (M3: firm effects jointly zero),243.1419426949323,"F(295,4137)",0.0,
+F test poolability (M6: firm effects jointly zero),307.2035834623146,"F(295,4138)",0.0,

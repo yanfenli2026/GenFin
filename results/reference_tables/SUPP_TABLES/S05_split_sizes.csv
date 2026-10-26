@@ -1,0 +1,9 @@
+split,fold,n_train,n_test,firms_train,firms_test,firms_in_both,years_train,years_test
+random_80_20 (legacy),-,3552,888,296,289,289,2010-2024,2010-2024
+grouped_kfold (seed 42),0,3540,900,236,60,0,2010-2024,2010-2024
+grouped_kfold (seed 42),1,3555,885,237,59,0,2010-2024,2010-2024
+grouped_kfold (seed 42),2,3555,885,237,59,0,2010-2024,2010-2024
+grouped_kfold (seed 42),3,3555,885,237,59,0,2010-2024,2010-2024
+grouped_kfold (seed 42),4,3555,885,237,59,0,2010-2024,2010-2024
+"temporal (train 2010-2020, test 2021-2024)",-,3256,1184,296,296,296,2010-2020,2021-2024
+"unseen-firm future (20% firms, 2021-2024)",-,2640,224,240,56,0,2010-2020,2021-2024

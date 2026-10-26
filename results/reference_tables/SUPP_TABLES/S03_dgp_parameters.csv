@@ -1,0 +1,33 @@
+parameter,default
+n_firms,300
+n_years,15
+start_year,2010
+sector_caps,"{""Tech"": 0.4, ""Healthcare"": 0.45, ""Financials"": 0.8, ""ConsDisc"": 0.5, ""Industrials"": 0.55, ""Energy"": 0.55, ""Utilities"": 0.7, ""Materials"": 0.55}"
+base_dr_frac,0.45
+sector_prof,"{""Tech"": 0.08, ""Healthcare"": 0.07, ""Financials"": 0.04, ""ConsDisc"": 0.06, ""Industrials"": 0.05, ""Energy"": 0.05, ""Utilities"": 0.03, ""Materials"": 0.04}"
+sector_growth,"{""Tech"": 0.1, ""Healthcare"": 0.07, ""Financials"": 0.04, ""ConsDisc"": 0.06, ""Industrials"": 0.05, ""Energy"": 0.04, ""Utilities"": 0.02, ""Materials"": 0.03}"
+size_mu,7.5
+size_sd,1.9
+prof_sd,0.08
+risk_a,2.0
+risk_b,5.0
+growth_sd,0.1
+firm_dr_sd,0.1
+dr_floor,0.02
+target_rate_coef,0.03
+target_spread_coef,0.02
+lam,0.3
+sigma_zeta,0.02
+sigma_init,0.03
+roa_noise_sd,0.02
+rev_noise_sd,0.04
+ebit_ni_mult,1.7
+erp,0.055
+beta0,1.0
+beta_lev,0.9
+beta_clip,"[0.5, 3.0]"
+tax_rate,0.21
+wacc_clip,"[0.02, 0.25]"
+winsorize,True
+winsor_q,"[0.01, 0.99]"
+_dr_perturb,0.0

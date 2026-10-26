@@ -1,0 +1,37 @@
+spec,block,mean_abs_block_shap_oof
+S1,Sector block (sector_code + 8 dummies),0.010699405108316
+S1,Macro block (4 variables),0.0039689378246733
+S1,roa,0.0034469101979554
+S1,roe,0.0268757187615151
+S1,interest_coverage,0.0315249205705837
+S1,cash_ratio,0.0020233648846662
+S1,tobin_q,0.0040520044694855
+S1,altman_zscore,0.0631669593627257
+S1,capital_structure_efficiency,0.038415250807052
+S1,size_code,0.0019620554583959
+S1,All debt-dependent features combined,0.0787280057113304
+S2,Sector block (sector_code + 8 dummies),0.0169388964517261
+S2,Macro block (4 variables),0.0045350208144176
+S2,roa,0.0210642257014853
+S2,roe,0.0603312858780177
+S2,interest_coverage,0.0857906989662471
+S2,cash_ratio,0.001697249766948
+S2,tobin_q,0.0071388166235833
+S2,capital_structure_efficiency,0.0065851814850651
+S2,size_code,0.0024280434673518
+S2,All debt-dependent features combined,0.0692877168216032
+S3,Sector block (sector_code + 8 dummies),0.0169388964517261
+S3,Macro block (4 variables),0.0045350208144176
+S3,roa,0.0210642257014853
+S3,roe,0.0603312858780177
+S3,interest_coverage,0.0857906989662471
+S3,cash_ratio,0.001697249766948
+S3,tobin_q,0.0071388166235833
+S3,capital_structure_efficiency,0.0065851814850651
+S3,size_code,0.0024280434673518
+S3,All debt-dependent features combined,0.0692877168216032
+S4,Sector block (sector_code + 8 dummies),0.0459732010259033
+S4,Macro block (4 variables),0.003793271465246
+S4,roa,0.013281824558169
+S4,cash_ratio,0.0062828612177183
+S4,size_code,0.0107991665246104

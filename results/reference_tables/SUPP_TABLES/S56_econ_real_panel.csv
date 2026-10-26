@@ -1,0 +1,21 @@
+row,Real_M2_A_all,Real_M3_A_all,Real_M2_B_all,Real_M3_B_all
+const,0.5362***,,1.5017***,
+,(0.1064),,(0.3316),
+roa,0.0619,-0.3124***,0.0500,-0.2933**
+,(0.2247),(0.0942),(0.2277),(0.1242)
+cash_ratio,-1.2982**,0.0700,-1.3242**,0.0257
+,(0.5806),(0.1455),(0.5229),(0.1463)
+log_assets,,,-0.0841***,-0.0334
+,,,(0.0209),(0.0399)
+asset_turnover,,,-0.0459,0.0107
+,,,(0.0391),(0.0823)
+size_code,-0.0964***,,,
+,(0.0308),,,
+Firm effects,No,Yes,No,Yes
+Year effects,Yes (dummies),Yes,Yes (dummies),Yes
+Standard errors,cluster(firm),cluster(firm),cluster(firm),cluster(firm)
+N (firm-years),184,184,184,184
+Firms,46,46,46,46
+R2 within,-1.367,0.219,-0.594,0.205
+R2 between,0.489,-0.162,0.501,-3.922
+R2 overall,0.428,-0.159,0.465,-3.889

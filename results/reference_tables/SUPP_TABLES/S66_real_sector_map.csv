@@ -1,0 +1,47 @@
+ticker,gics_sector,mapped_sector,note
+AAPL,Information Technology,Tech,
+ABBV,Health Care,Healthcare,
+ADBE,Information Technology,Tech,
+AMZN,Consumer Discretionary,ConsDisc,
+AXP,Financials,Financials,
+BA,Industrials,Industrials,
+BAC,Financials,Financials,
+CAT,Industrials,Industrials,
+COST,Consumer Staples,ConsDisc,Consumer Staples not in the 8; mapped to the nearest consumer sector (ConsDisc).
+CRM,Information Technology,Tech,
+CSCO,Information Technology,Tech,
+CVX,Energy,Energy,
+DIS,Communication Services,ConsDisc,Communication Services not in the 8; mapped to ConsDisc (classified Consumer Discretionary before 2018).
+GE,Industrials,Industrials,
+GOOGL,Communication Services,Tech,Communication Services not in the 8; mapped to Tech (classified IT before the 2018 GICS revision).
+GS,Financials,Financials,
+HD,Consumer Discretionary,ConsDisc,
+HON,Industrials,Industrials,
+IBM,Information Technology,Tech,
+INTC,Information Technology,Tech,
+JNJ,Health Care,Healthcare,
+JPM,Financials,Financials,
+KO,Consumer Staples,ConsDisc,Consumer Staples not in the 8; mapped to the nearest consumer sector (ConsDisc).
+LIN,Materials,Materials,
+LLY,Health Care,Healthcare,
+MA,Financials,Financials,Classified IT until the 2023 GICS revision.
+MCD,Consumer Discretionary,ConsDisc,
+MDT,Health Care,Healthcare,
+META,Communication Services,Tech,Communication Services not in the 8; mapped to Tech (classified IT before the 2018 GICS revision).
+MMM,Industrials,Industrials,
+MRK,Health Care,Healthcare,
+MSFT,Information Technology,Tech,
+NEE,Utilities,Utilities,
+NFLX,Communication Services,ConsDisc,Communication Services not in the 8; mapped to ConsDisc (classified Consumer Discretionary before 2018).
+NVDA,Information Technology,Tech,
+PEP,Consumer Staples,ConsDisc,Consumer Staples not in the 8; mapped to the nearest consumer sector (ConsDisc).
+PFE,Health Care,Healthcare,
+PG,Consumer Staples,ConsDisc,Consumer Staples not in the 8; mapped to the nearest consumer sector (ConsDisc).
+QCOM,Information Technology,Tech,
+TMO,Health Care,Healthcare,
+TSLA,Consumer Discretionary,ConsDisc,
+TXN,Information Technology,Tech,
+UNH,Health Care,Healthcare,
+V,Financials,Financials,Classified IT until the 2023 GICS revision.
+WMT,Consumer Staples,ConsDisc,Consumer Staples not in the 8; mapped to the nearest consumer sector (ConsDisc).
+XOM,Energy,Energy,

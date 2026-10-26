@@ -1,0 +1,43 @@
+row,M7,M6,M8
+const,0.2010***,0.2316***,
+,(0.0266),(0.0075),
+roa,0.0078,0.0019,0.0031
+,(0.0122),(0.0030),(0.0032)
+tobin_q,,,
+,,,
+interest_coverage,,,
+,,,
+cash_ratio,-0.1384,-0.0680*,-0.0673
+,(0.2106),(0.0404),(0.0419)
+size_code,-0.0087,,
+,(0.0068),,
+gdp_growth,0.0027*,0.0023*,
+,(0.0015),(0.0014),
+inflation,0.0011,0.0009,
+,(0.0013),(0.0012),
+interest_rate,-0.0002,3.02e-05,
+,(0.0018),(0.0016),
+credit_spread,-0.0025,-0.0027*,
+,(0.0016),(0.0016),
+sector_Energy,0.0296,,
+,(0.0224),,
+sector_Financials,0.1422***,,
+,(0.0234),,
+sector_Healthcare,-0.0028,,
+,(0.0236),,
+sector_Industrials,0.0360*,,
+,(0.0212),,
+sector_Materials,0.0571***,,
+,(0.0211),,
+sector_Tech,-0.0261,,
+,(0.0211),,
+sector_Utilities,0.1127***,,
+,(0.0219),,
+Firm effects,No,Yes,Yes
+Year effects,No,No,Yes
+Standard errors,cluster(firm),cluster(firm),cluster(firm)
+N (firm-years),"4,440","4,440","4,440"
+Firms,296,296,296
+R2 within,0.011,0.015,-0.000
+R2 between,0.258,-0.000,-0.038
+R2 overall,0.247,0.000,-0.038

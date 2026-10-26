@@ -1,0 +1,17 @@
+feature,display_name,rank_seed42_oof,rank_fold0,rank_fold1,rank_fold2,rank_fold3,rank_fold4,rank_seed42,rank_seed43,rank_seed44,rank_seed45,rank_seed46,top5_count_folds_of5,top5_count_seeds_of5,top5_count_seedfold_of25,rank_min_seedfold,rank_max_seedfold,mean_abs_shap_mean_over_seeds,mean_abs_shap_sd_over_seeds
+sector_Financials,Sector: Financials,1,1,1,2,1,1,1,1,1,1,1,5,5,25,1,2,0.0251310448834408,0.0020038889739321
+sector_code,Sector code,2,2,2,1,2,2,2,2,2,2,5,5,5,22,1,6,0.0170924916119802,0.0040459954595932
+roa,ROA,3,3,3,3,3,3,3,4,4,3,2,5,5,25,2,5,0.0134695281095469,0.0019042375034034
+size_code,Size tertile,4,4,4,4,4,4,4,3,3,4,4,5,5,25,1,5,0.0129222130029716,0.0030556141762962
+cash_ratio,Cash ratio,5,6,7,6,5,5,5,5,6,5,7,2,3,10,5,7,0.0069080703455657,0.0007490098395562
+sector_Materials,Sector: Materials,6,5,5,5,6,6,6,6,10,11,9,3,0,5,4,14,0.0035153759552293,0.0020289307209647
+sector_Healthcare,Sector: Healthcare,7,12,6,7,9,9,7,8,5,6,8,0,1,5,4,12,0.0050592874673033,0.0026405966838998
+sector_Industrials,Sector: Industrials,8,7,8,13,8,11,8,10,7,10,10,0,0,2,5,14,0.0026983134798023,0.0017522145853498
+sector_Tech,Sector: Tech,9,9,9,8,7,7,9,7,9,7,3,0,1,4,2,10,0.0049970578598606,0.0045356715317006
+sector_Energy,Sector: Energy,10,11,10,9,10,8,10,9,8,8,6,0,0,2,4,14,0.0036268914902341,0.0025294082647633
+gdp_growth,GDP growth,11,8,12,11,12,10,11,12,14,9,13,0,0,0,8,14,0.0013988036257452,0.0003587097225276
+inflation,Inflation,12,13,11,10,11,14,12,11,11,12,14,0,0,0,8,14,0.0013432103251298,0.0002782006703428
+interest_rate,Interest rate,13,14,14,12,13,12,13,13,13,13,11,0,0,0,11,14,0.0011351323977748,0.0001731245863036
+credit_spread,Credit spread,14,10,13,14,14,13,14,14,12,14,12,0,0,0,10,14,0.0011298307790851,0.0002972866869614
+sector_ConsDisc,Sector: ConsDisc,15,15,15,15,15,15,15,15,15,15,15,0,0,0,15,15,0.0,0.0
+sector_Utilities,Sector: Utilities,15,15,15,15,15,15,15,15,15,15,15,0,0,0,15,15,0.0,0.0

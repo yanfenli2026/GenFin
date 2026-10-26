@@ -1,0 +1,14 @@
+quantity,value
+n_firms_in_sectors_with_3plus_firms,42.0
+median_abs_dev_pp,5.263933270912215
+share_within_5pp,0.5
+share_within_10pp,0.6666666666666666
+median_abs_dev_loo_pp,6.4415483493204055
+pa_toward_sector_median_coef,0.0366144884259672
+pa_se_clustered,0.0124931132502407
+pa_ci_lo,0.0121284364007151
+pa_ci_hi,0.0611005404512193
+pa_p,0.0033811893380233
+pa_n_obs,126.0
+pa_n_firms,42.0
+pa_r2,0.0258162733204732

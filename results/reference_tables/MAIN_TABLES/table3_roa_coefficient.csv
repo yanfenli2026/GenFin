@@ -1,0 +1,22 @@
+Sample,Specification,ROA coef.,SE,p,95% CI,SE type
+"Reference synthetic panel (N = 4,440; 296 firms)","M1: Pooled OLS, original regressors, HC1",0.1388,0.0063,<1e-15,"[0.126, 0.151]",HC1
+"Reference synthetic panel (N = 4,440; 296 firms)","M2: Pooled OLS, original regressors, firm cluster",0.1388,0.0141,<1e-15,"[0.111, 0.167]",cluster(firm)
+"Reference synthetic panel (N = 4,440; 296 firms)","M3: Firm FE, original regressors, firm cluster",0.0223,0.0043,1.9e-07,"[0.014, 0.031]",cluster(firm)
+"Reference synthetic panel (N = 4,440; 296 firms)","M4: Firm + year FE, original regressors, firm cluster",0.0227,0.0045,4e-07,"[0.014, 0.031]",cluster(firm)
+"Reference synthetic panel (N = 4,440; 296 firms)","M5: Firm FE, original regressors, Driscoll-Kraay",0.0223,0.0020,<1e-15,"[0.018, 0.026]","Driscoll-Kraay (Bartlett, bw=2)"
+"Reference synthetic panel (N = 4,440; 296 firms)","M6: Firm FE, strict regressors, firm cluster",0.0019,0.0030,0.52,"[-0.004, 0.008]",cluster(firm)
+"Reference synthetic panel (N = 4,440; 296 firms)","M7: Pooled OLS, strict regressors, firm cluster",0.0078,0.0122,0.53,"[-0.016, 0.032]",cluster(firm)
+"Reference synthetic panel (N = 4,440; 296 firms)","M8: Firm + year FE, strict regressors, firm cluster",0.0031,0.0032,0.33,"[-0.003, 0.009]",cluster(firm)
+"Reference synthetic panel (N = 4,440; 296 firms)","aux: pooled, original minus interest_coverage, firm cluster",0.0082,0.0121,0.5,"[-0.015, 0.032]",cluster(firm)
+"Reference synthetic panel (N = 4,440; 296 firms)","aux: pooled, original minus tobin_q, firm cluster",0.1397,0.0143,<1e-15,"[0.112, 0.168]",cluster(firm)
+"Reference synthetic panel (N = 4,440; 296 firms)","aux: pooled, roa + macro + sector only, firm cluster",0.0077,0.0121,0.53,"[-0.016, 0.031]",cluster(firm)
+"Reference synthetic panel (N = 4,440; 296 firms)","aux: firm FE, original minus interest_coverage, firm cluster",0.0019,0.0030,0.51,"[-0.004, 0.008]",cluster(firm)
+"Reference synthetic panel (N = 4,440; 296 firms)","aux: firm FE, roa + macro only, firm cluster",0.0019,0.0030,0.52,"[-0.004, 0.008]",cluster(firm)
+Real 46-firm sample (all),"Pooled OLS, year + sector dummies, spec A",0.0619,0.2247,0.78,"[-0.378, 0.502]",cluster(firm)
+Real 46-firm sample (all),"Firm + year FE, spec A",-0.3124,0.0942,0.0012,"[-0.499, -0.126]",cluster(firm)
+Real 46-firm sample (all),"Pooled OLS, year + sector dummies, spec B",0.0500,0.2277,0.83,"[-0.396, 0.496]",cluster(firm)
+Real 46-firm sample (all),"Firm + year FE, spec B",-0.2933,0.1242,0.02,"[-0.539, -0.047]",cluster(firm)
+Real 46-firm sample (excl_MCD),"Pooled OLS, year + sector dummies, spec A",0.0190,0.2107,0.93,"[-0.394, 0.432]",cluster(firm)
+Real 46-firm sample (excl_MCD),"Firm + year FE, spec A",-0.3111,0.0953,0.0014,"[-0.500, -0.123]",cluster(firm)
+Real 46-firm sample (excl_MCD),"Pooled OLS, year + sector dummies, spec B",-0.0280,0.2033,0.89,"[-0.426, 0.370]",cluster(firm)
+Real 46-firm sample (excl_MCD),"Firm + year FE, spec B",-0.2902,0.1241,0.021,"[-0.536, -0.045]",cluster(firm)

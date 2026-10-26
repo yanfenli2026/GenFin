@@ -1,0 +1,12 @@
+quantity,value
+real_between_sector_share_mapped8,0.2187841634994473
+real_between_sector_share_gics11,0.2992849931764693
+real_between_firm_share,0.9672189849032424
+synthetic_between_sector_share,0.2418078659380302
+synthetic_between_firm_share,0.9557405180645095
+sector_mean_dr_spearman_real_vs_synthetic,0.0476190476190476
+sector_mean_dr_spearman_p,0.9108491685195836
+sector_mix_chisq_firms_vs_synthetic_shares,22.869565217391305
+sector_mix_chisq_p,0.001796076129527
+real_dr_ar1_corr,0.9779816801508844
+synthetic_dr_ar1_corr,0.9808257403127224

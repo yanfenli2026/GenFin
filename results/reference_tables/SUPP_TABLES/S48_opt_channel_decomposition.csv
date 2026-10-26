@@ -1,0 +1,145 @@
+scenario,variant,target,x_wacc_min,x_value_max,x_wacc_min_spreadprem,price_of_risk
+Recession,all_channels,Average firm,0.2085,0.209,0.358,7.326237539212448
+Recession,all_channels,ConsDisc,0.197,0.1975,0.354,7.326237539212448
+Recession,all_channels,Energy,0.284,0.3075,0.4395,7.326237539212448
+Recession,all_channels,Financials,0.24,0.2415,0.3735,7.326237539212448
+Recession,all_channels,Healthcare,0.1425,0.126,0.288,7.326237539212448
+Recession,all_channels,Industrials,0.2255,0.226,0.368,7.326237539212448
+Recession,all_channels,Materials,0.2945,0.3095,0.4315,7.326237539212448
+Recession,all_channels,Tech,0.08,0.054,0.202,7.326237539212448
+Recession,all_channels,Utilities,0.323,0.354,0.462,7.326237539212448
+Recession,no_drift_channel,Average firm,0.2305,0.2365,0.3955,7.326237539212448
+Recession,no_drift_channel,ConsDisc,0.218,0.2235,0.3915,7.326237539212448
+Recession,no_drift_channel,Energy,0.314,0.346,0.4855,7.326237539212448
+Recession,no_drift_channel,Financials,0.2655,0.272,0.4125,7.326237539212448
+Recession,no_drift_channel,Healthcare,0.1575,0.1435,0.318,7.326237539212448
+Recession,no_drift_channel,Industrials,0.2495,0.255,0.407,7.326237539212448
+Recession,no_drift_channel,Materials,0.325,0.3475,0.4765,7.326237539212448
+Recession,no_drift_channel,Tech,0.0885,0.062,0.223,7.326237539212448
+Recession,no_drift_channel,Utilities,0.357,0.3975,0.5105,7.326237539212448
+Recession,no_price_channel,Average firm,0.2585,0.209,0.358,2.5
+Recession,no_price_channel,ConsDisc,0.2485,0.1975,0.354,2.5
+Recession,no_price_channel,Energy,0.3375,0.3075,0.4395,2.5
+Recession,no_price_channel,Financials,0.2865,0.2415,0.3735,2.5
+Recession,no_price_channel,Healthcare,0.1885,0.126,0.288,2.5
+Recession,no_price_channel,Industrials,0.2745,0.226,0.368,2.5
+Recession,no_price_channel,Materials,0.343,0.3095,0.4315,2.5
+Recession,no_price_channel,Tech,0.115,0.054,0.202,2.5
+Recession,no_price_channel,Utilities,0.372,0.354,0.462,2.5
+Recession,rate_only,Average firm,0.2855,0.2365,0.3955,2.5
+Recession,rate_only,ConsDisc,0.2745,0.2235,0.3915,2.5
+Recession,rate_only,Energy,0.373,0.346,0.4855,2.5
+Recession,rate_only,Financials,0.3165,0.272,0.4125,2.5
+Recession,rate_only,Healthcare,0.2085,0.1435,0.318,2.5
+Recession,rate_only,Industrials,0.303,0.255,0.407,2.5
+Recession,rate_only,Materials,0.379,0.3475,0.4765,2.5
+Recession,rate_only,Tech,0.127,0.062,0.223,2.5
+Recession,rate_only,Utilities,0.4115,0.3975,0.5105,2.5
+High_Rate,all_channels,Average firm,0.291,0.3545,0.4825,5.717491692808299
+High_Rate,all_channels,ConsDisc,0.28,0.351,0.4865,5.717491692808299
+High_Rate,all_channels,Energy,0.379,0.479,0.571,5.717491692808299
+High_Rate,all_channels,Financials,0.3215,0.3735,0.4835,5.717491692808299
+High_Rate,all_channels,Healthcare,0.2135,0.247,0.412,5.717491692808299
+High_Rate,all_channels,Industrials,0.3085,0.365,0.4855,5.717491692808299
+High_Rate,all_channels,Materials,0.384,0.457,0.547,5.717491692808299
+High_Rate,all_channels,Tech,0.1315,0.127,0.316,5.717491692808299
+High_Rate,all_channels,Utilities,0.4165,0.514,0.5825,5.717491692808299
+High_Rate,no_drift_channel,Average firm,0.291,0.3545,0.4825,5.717491692808299
+High_Rate,no_drift_channel,ConsDisc,0.28,0.351,0.4865,5.717491692808299
+High_Rate,no_drift_channel,Energy,0.379,0.479,0.571,5.717491692808299
+High_Rate,no_drift_channel,Financials,0.3215,0.3735,0.4835,5.717491692808299
+High_Rate,no_drift_channel,Healthcare,0.2135,0.247,0.412,5.717491692808299
+High_Rate,no_drift_channel,Industrials,0.3085,0.365,0.4855,5.717491692808299
+High_Rate,no_drift_channel,Materials,0.384,0.457,0.547,5.717491692808299
+High_Rate,no_drift_channel,Tech,0.1315,0.127,0.316,5.717491692808299
+High_Rate,no_drift_channel,Utilities,0.4165,0.514,0.5825,5.717491692808299
+High_Rate,no_price_channel,Average firm,0.352,0.3545,0.4825,2.5
+High_Rate,no_price_channel,ConsDisc,0.345,0.351,0.4865,2.5
+High_Rate,no_price_channel,Energy,0.442,0.479,0.571,2.5
+High_Rate,no_price_channel,Financials,0.3755,0.3735,0.4835,2.5
+High_Rate,no_price_channel,Healthcare,0.2735,0.247,0.412,2.5
+High_Rate,no_price_channel,Industrials,0.3665,0.365,0.4855,2.5
+High_Rate,no_price_channel,Materials,0.4395,0.457,0.547,2.5
+High_Rate,no_price_channel,Tech,0.1825,0.127,0.316,2.5
+High_Rate,no_price_channel,Utilities,0.4725,0.514,0.5825,2.5
+High_Rate,rate_only,Average firm,0.352,0.3545,0.4825,2.5
+High_Rate,rate_only,ConsDisc,0.345,0.351,0.4865,2.5
+High_Rate,rate_only,Energy,0.442,0.479,0.571,2.5
+High_Rate,rate_only,Financials,0.3755,0.3735,0.4835,2.5
+High_Rate,rate_only,Healthcare,0.2735,0.247,0.412,2.5
+High_Rate,rate_only,Industrials,0.3665,0.365,0.4855,2.5
+High_Rate,rate_only,Materials,0.4395,0.457,0.547,2.5
+High_Rate,rate_only,Tech,0.1825,0.127,0.316,2.5
+High_Rate,rate_only,Utilities,0.4725,0.514,0.5825,2.5
+Credit_Crunch,all_channels,Average firm,0.241,0.3075,0.4335,8.934983385616597
+Credit_Crunch,all_channels,ConsDisc,0.2295,0.301,0.435,8.934983385616597
+Credit_Crunch,all_channels,Energy,0.3225,0.4235,0.5185,8.934983385616597
+Credit_Crunch,all_channels,Financials,0.273,0.331,0.4395,8.934983385616597
+Credit_Crunch,all_channels,Healthcare,0.1695,0.207,0.3645,8.934983385616597
+Credit_Crunch,all_channels,Industrials,0.2585,0.32,0.4395,8.934983385616597
+Credit_Crunch,all_channels,Materials,0.331,0.4085,0.5005,8.934983385616597
+Credit_Crunch,all_channels,Tech,0.0985,0.102,0.272,8.934983385616597
+Credit_Crunch,all_channels,Utilities,0.3615,0.462,0.534,8.934983385616597
+Credit_Crunch,no_drift_channel,Average firm,0.2535,0.328,0.456,8.934983385616597
+Credit_Crunch,no_drift_channel,ConsDisc,0.2415,0.3215,0.4575,8.934983385616597
+Credit_Crunch,no_drift_channel,Energy,0.339,0.4505,0.5455,8.934983385616597
+Credit_Crunch,no_drift_channel,Financials,0.287,0.3515,0.4625,8.934983385616597
+Credit_Crunch,no_drift_channel,Healthcare,0.1785,0.222,0.383,8.934983385616597
+Credit_Crunch,no_drift_channel,Industrials,0.272,0.341,0.462,8.934983385616597
+Credit_Crunch,no_drift_channel,Materials,0.348,0.434,0.5265,8.934983385616597
+Credit_Crunch,no_drift_channel,Tech,0.1035,0.11,0.286,8.934983385616597
+Credit_Crunch,no_drift_channel,Utilities,0.38,0.49,0.561,8.934983385616597
+Credit_Crunch,no_price_channel,Average firm,0.3175,0.3075,0.4335,2.5
+Credit_Crunch,no_price_channel,ConsDisc,0.309,0.301,0.435,2.5
+Credit_Crunch,no_price_channel,Energy,0.4025,0.4235,0.5185,2.5
+Credit_Crunch,no_price_channel,Financials,0.342,0.331,0.4395,2.5
+Credit_Crunch,no_price_channel,Healthcare,0.2425,0.207,0.3645,2.5
+Credit_Crunch,no_price_channel,Industrials,0.332,0.32,0.4395,2.5
+Credit_Crunch,no_price_channel,Materials,0.4025,0.4085,0.5005,2.5
+Credit_Crunch,no_price_channel,Tech,0.158,0.102,0.272,2.5
+Credit_Crunch,no_price_channel,Utilities,0.434,0.462,0.534,2.5
+Credit_Crunch,rate_only,Average firm,0.3335,0.328,0.456,2.5
+Credit_Crunch,rate_only,ConsDisc,0.325,0.3215,0.4575,2.5
+Credit_Crunch,rate_only,Energy,0.423,0.4505,0.5455,2.5
+Credit_Crunch,rate_only,Financials,0.3595,0.3515,0.4625,2.5
+Credit_Crunch,rate_only,Healthcare,0.255,0.222,0.383,2.5
+Credit_Crunch,rate_only,Industrials,0.349,0.341,0.462,2.5
+Credit_Crunch,rate_only,Materials,0.423,0.434,0.5265,2.5
+Credit_Crunch,rate_only,Tech,0.166,0.11,0.286,2.5
+Credit_Crunch,rate_only,Utilities,0.456,0.49,0.561,2.5
+Strong_Growth,all_channels,Average firm,0.4215,0.3215,0.4605,1.0
+Strong_Growth,all_channels,ConsDisc,0.4165,0.3115,0.459,1.0
+Strong_Growth,all_channels,Energy,0.519,0.4505,0.5575,1.0
+Strong_Growth,all_channels,Financials,0.4405,0.352,0.4735,1.0
+Strong_Growth,all_channels,Healthcare,0.338,0.2105,0.3795,1.0
+Strong_Growth,all_channels,Industrials,0.434,0.338,0.47,1.0
+Strong_Growth,all_channels,Materials,0.5095,0.439,0.5425,1.0
+Strong_Growth,all_channels,Tech,0.236,0.1,0.2755,1.0
+Strong_Growth,all_channels,Utilities,0.546,0.498,0.5795,1.0
+Strong_Growth,no_drift_channel,Average firm,0.391,0.292,0.4275,1.0
+Strong_Growth,no_drift_channel,ConsDisc,0.3865,0.2825,0.426,1.0
+Strong_Growth,no_drift_channel,Energy,0.4815,0.411,0.5175,1.0
+Strong_Growth,no_drift_channel,Financials,0.409,0.3215,0.439,1.0
+Strong_Growth,no_drift_channel,Healthcare,0.3135,0.19,0.352,1.0
+Strong_Growth,no_drift_channel,Industrials,0.403,0.308,0.436,1.0
+Strong_Growth,no_drift_channel,Materials,0.473,0.4015,0.503,1.0
+Strong_Growth,no_drift_channel,Tech,0.2185,0.0895,0.2555,1.0
+Strong_Growth,no_drift_channel,Utilities,0.5065,0.456,0.5375,1.0
+Strong_Growth,no_price_channel,Average firm,0.3365,0.3215,0.4605,2.5
+Strong_Growth,no_price_channel,ConsDisc,0.326,0.3115,0.459,2.5
+Strong_Growth,no_price_channel,Energy,0.432,0.4505,0.5575,2.5
+Strong_Growth,no_price_channel,Financials,0.367,0.352,0.4735,2.5
+Strong_Growth,no_price_channel,Healthcare,0.252,0.2105,0.3795,2.5
+Strong_Growth,no_price_channel,Industrials,0.354,0.338,0.47,2.5
+Strong_Growth,no_price_channel,Materials,0.435,0.439,0.5425,2.5
+Strong_Growth,no_price_channel,Tech,0.1595,0.1,0.2755,2.5
+Strong_Growth,no_price_channel,Utilities,0.4705,0.498,0.5795,2.5
+Strong_Growth,rate_only,Average firm,0.312,0.292,0.4275,2.5
+Strong_Growth,rate_only,ConsDisc,0.3025,0.2825,0.426,2.5
+Strong_Growth,rate_only,Energy,0.401,0.411,0.5175,2.5
+Strong_Growth,rate_only,Financials,0.3405,0.3215,0.439,2.5
+Strong_Growth,rate_only,Healthcare,0.234,0.19,0.352,2.5
+Strong_Growth,rate_only,Industrials,0.3285,0.308,0.436,2.5
+Strong_Growth,rate_only,Materials,0.4035,0.4015,0.503,2.5
+Strong_Growth,rate_only,Tech,0.148,0.0895,0.2555,2.5
+Strong_Growth,rate_only,Utilities,0.4365,0.456,0.5375,2.5

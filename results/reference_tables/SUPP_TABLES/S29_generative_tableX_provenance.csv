@@ -1,0 +1,16 @@
+row,column,value_in_paper,source_and_definition
+Constrained Baseline,KS,0.135,"Excel sheet Synth_Data_Eval (run_synthetic_generator; 800 noisy copies of reference rows, KS over first 8 standardised features)"
+Constrained Baseline,Wasserstein,0.26,Excel sheet Synth_Data_Eval
+Constrained Baseline,JS,1.557,"Excel sheet Synth_Data_Eval (natural-log formula on histograms with different bin edges for the two samples; not a valid JSD, which is <= ln 2 = 0.693)"
+Constrained Baseline,CVR,0.0,"Excel sheet Synth_Data_Eval (share of rows with |z| >= 4 after clipping to [-3, 3]: 0 by construction)"
+Constrained Baseline,Time,0.003,generative_comparison_EXPANDED.csv (real 46-firm data run)
+CTGAN,KS,0.985,"generative_comparison_EXPANDED.csv (46-firm Yahoo data, 184 rows; not the synthetic panel)"
+TVAE,KS,0.987,"generative_comparison_EXPANDED.csv (46-firm Yahoo data, 184 rows)"
+CTGAN,Wasserstein,2.881,generative_baseline_comparison.csv (run_comparison.py fallback dataset; baseline KS in that run = 0.774)
+TVAE,Wasserstein,2.928,generative_baseline_comparison.csv
+CTGAN,Corr. pres.,3.278,"generative_baseline_comparison.csv; Frobenius norm of the 10 x 10 correlation difference, not a mean absolute difference"
+TVAE,Corr. pres.,3.183,generative_baseline_comparison.csv; Frobenius norm
+CTGAN,CVR,0.016,"generative_baseline_comparison.csv; ratio mean|x0-(x1+x2)|_syn / mean|x0-(x1+x2)|_ref with x0 = debt_ratio, x1 = log1p(assets), x2 = log1p(debt)"
+TVAE,CVR,0.001,generative_baseline_comparison.csv; same ratio
+CTGAN,Time,9.393,generative_baseline_comparison.csv
+TVAE,Time,4.73,generative_baseline_comparison.csv

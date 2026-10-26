@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Generated outputs (regenerate with scripts/run_all.sh or scripts/run_all.ps1)
+output/
+/figures/
+logs/
+outputs/
+
+# Third-party data: do not commit (licence / redistribution terms, see README)
+data/recent_data/*
+!data/recent_data/README.md
+data/sec_datavidence/*
+!data/sec_datavidence/README.md
+code_sec/sec_panel.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

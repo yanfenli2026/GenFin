@@ -1,0 +1,4 @@
+comparison,spearman,kendall_tau,top5_overlap,same_top1,top1_a,top1_b
+"RF surrogate vs LightGBM (same in-sample protocol, 500 rows)",0.962289500229054,0.8681279817956725,4,True,altman_zscore,altman_zscore
+"RF surrogate vs LightGBM (out-of-fold, grouped 5-fold)",0.9626502618789062,0.8735108409956792,4,True,altman_zscore,altman_zscore
+LightGBM in-sample vs LightGBM out-of-fold,0.980813474906385,0.9278953390890922,5,True,altman_zscore,altman_zscore

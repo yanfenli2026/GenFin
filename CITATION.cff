@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this software release."
+# After the Zenodo release, add:  doi: 10.5281/zenodo.XXXXXXX  and  repository-code: <GitHub URL>
+title: "A leakage-aware hybrid modeling framework for corporate capital structure with validation on real firm data: code and reproducibility package"
+type: software
+license: MIT
+version: "1.0.0"
+authors:
+  - family-names: Jiang
+    given-names: Wenbing
+    email: jwbing@163.com
+    affiliation: "School of Economics and Management, Lanzhou City University, Lanzhou, China"
+keywords:
+  - capital structure
+  - machine learning
+  - data leakage
+  - panel data
+  - synthetic data
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "A leakage-aware hybrid modeling framework for corporate capital structure with validation on real firm data"
+  authors:
+    - family-names: Jiang
+      given-names: Wenbing
+      email: jwbing@163.com
+      affiliation: "School of Economics and Management, Lanzhou City University, Lanzhou, China"

@@ -1,0 +1,7 @@
+Unnamed: 0,value
+share_between_sector,0.2418078659380301
+share_between_firm,0.9557405180645092
+share_within_firm,0.0442594819354906
+r2_ols_sector_dummies_insample,0.2418078659380301
+r2_ols_sector_plus_year_insample,0.2426472816543116
+r2_ols_firm_fe_insample,0.9557405180645095
